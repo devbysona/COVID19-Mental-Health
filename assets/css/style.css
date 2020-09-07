@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   padding-top: 10rem;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.navbar{
+	font-size: 20px;
+}
+
+.navbar-header a{
+	font-size: 25px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #46A093;
+
+}
+.navbar-default .navbar-nav > li > a:hover {
+	  color: #46A093;
+	  font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+	  color: #46A093;
+}
+
+.navbar-default .navbar-brand:hover{
+	  color: #46A093;
+	  font-weight: bold;
+}
+
+.navbar-collapse{
+	  background: white;
+}
+
+#header.header-scrolled {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  height: 60px;
+  background: white;
+}
+
+.btn-primary {
+  background-color: #6BBD98;
+  border-color: #46A098;
+}
+
+.btn-primary:hover {
+	background-color: #46A098;
+    border-color: #46A098;
+}
+
+.banner-text h1 {
+	font-size: 44px;
+	font-weight: 500;
+	color: #46A098;
+	animation: kiri 2s ease;
+	padding-top: 10rem;
+}
+
+.banner-text p {
+	margin-top: 5px;
+	font-size: 20px;
+	color: #585772;
+	animation: kanan 1.5s ease;
+}
+
+.konteks {
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.content {
+  padding: 60px;
+  overflow: hidden;
+}
+
+.content li {
+	font-size: 18px;	
+}
+.content-bg{
+	 background-color: #C4E8BF;
+}
+
+.content-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.content-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+}
+
+.content-title h2::before, .content-title h2::after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  background: #6BBD98;
+  display: inline-block;
+}
+
+.content-title h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.content-title h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.pesan {
+  border: 0;
+  margin-top: 20px;
+  padding: 160px 20px 20px 20px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.pesan p{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+
+.pesan p:hover{
+	color: #46A093;
+}
+
+@media screen and (max-width: 1024px) {
+	.banner-text{
+		text-align: center;
+	}
+	
+	.banner-text h1 {
+		font-size: 30px;
+		padding-top: 0rem;
+	}
+	
+	.banner-text p {
+		font-size: 18px;
+	}
+	
+	.gambar-banner img {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0vh;
+		width: 100%;
+        height: auto;	
+	}
+	
+	.content{
+		padding: 30px;
+	}
+	
+	.content-title h2{
+		font-size: 30px;
+	}
+	
+	.content-title h2::before, .content-title h2::after{
+		display: none;
+	}
+	
+	.img-pesan{
+		width: 100%;
+        height: auto;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.img-pesan{
+		display: none;
+	}
+}
+
+
+
+
